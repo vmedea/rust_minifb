@@ -11,6 +11,10 @@
 mod common;
 #[cfg(feature = "wayland")]
 mod wayland;
+#[cfg(feature = "wayland")]
+mod xkb_ffi;
+#[cfg(feature = "wayland")]
+mod xkb_keysyms;
 #[cfg(feature = "x11")]
 mod x11;
 
